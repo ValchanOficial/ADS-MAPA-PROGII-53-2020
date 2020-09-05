@@ -10,11 +10,11 @@ Os atendimentos a clientes podem ser divididos em 3 categorias:
 
 Desenvolvimento em 3 etapas:
 
-- **1. Construção da interface, de acordo com o modelo de referência abaixo.**
+**1. Construção da interface, de acordo com o modelo de referência abaixo.**
 
-![React Employee](/docs/screenshot.png)
+![Interface de referência](/docs/screenshot.png)
 
-​- **2. Criação da fila de atendimento.**
+**2. Criação da fila de atendimento.**
 
 Semelhante às máquinas de geração de senhas, há três botões para os clientes: Preferencial, Rápido e Comum. O cliente aperta o botão de acordo com o seu atendimento, sua senha é gerada e colocada em uma fila.
 
@@ -27,7 +27,7 @@ P-1, C-2, C-3, R-4.
 Haverá uma única fila que será implementada com ArrayList, contendo todas as senhas geradas, que serão objetos da classe Senha, que será criada.
 A classe senha precisa apenas de dois atributos: o tipo e o número.
 
-- **3. Realização dos atendimentos.**
+**3. Realização dos atendimentos.**
 
 Haverá 4 caixas para atendimentos, que atenderão da seguinte forma:
 
@@ -37,6 +37,6 @@ Haverá 4 caixas para atendimentos, que atenderão da seguinte forma:
 
 Cada caixa, tem o seu botão. Ao clicar no seu respectivo botão, este, deverá buscar a próxima senha a ser atendida. Na sequência, deverá exibir no painel a senha e o caixa. Por fim, o caixa deverá retirar a senha da fila. Se não houver nenhuma senha na fila, não faz nada.
 
-- **REQUISITOS:**
+**REQUISITOS:**
 - O programa deve ser desenvolvido no NetBeans utilizando a interface no GUI Builder contido no NetBeans.
 - As operações precisam estar funcionando.
